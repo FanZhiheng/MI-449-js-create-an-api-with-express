@@ -19,7 +19,7 @@ app.get('/todos/:id', function (request, response) {
   if ((todos[request.params.id])) {
     response.json(todos[request.params.id])
   } else {
-    response.status(404).json({ message: request.params.id + ' not found' })
+    response.status(404).json({ message:'todos ' + request.params.id + ' not found' })
   }
 })
 
