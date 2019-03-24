@@ -19,7 +19,7 @@ app.get('/todos/:id', function (request, response) {
   if ((todos[request.params.id])) {
     response.json(todos[request.params.id])
   } else {
-    response.status(404).end('sorry, no such product: ' + request.params.id)
+    response.status(404).json({ message: request.params.id + ' not found' })
   }
 })
 
