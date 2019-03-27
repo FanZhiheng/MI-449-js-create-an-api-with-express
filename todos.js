@@ -1,14 +1,15 @@
+
 module.exports = {
-  'eat-lunch': {
-    what: 'eat lunch',
-    when: '11:00'
+  '1': {
+    plan: '1-start up',
+    time: '9:00am'
   },
-  'play-games': {
-    what: 'play games',
-    when: '14:00'
+  '2': {
+    plan: '2-go shopping',
+    time: '10:00am'
   },
-  'write-MI449': {
-    what: 'write MI449',
-    when: '16:00'
+  '3': {
+    plan: '3-reading book',
+    time: '2:00pm'
   }
 }
